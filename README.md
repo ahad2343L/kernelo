@@ -68,3 +68,7 @@ CHAT_BACKEND=echo kernelo
 ```bash
 pytest
 ```
+
+```
+dont forgot to intall ollama
+```
