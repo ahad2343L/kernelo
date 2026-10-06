@@ -1,0 +1,2 @@
+[console_scripts]
+kernelo = kernelo.__main__:run

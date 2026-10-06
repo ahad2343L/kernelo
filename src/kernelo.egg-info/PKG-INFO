@@ -1,3 +1,15 @@
+Metadata-Version: 2.4
+Name: kernelo
+Version: 0.1.0
+Summary: A terminal chat UI in the style of Claude Code
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: httpx>=0.28.0
+Requires-Dist: prompt_toolkit>=3.0.0
+Requires-Dist: rich>=13.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+
 # Kernelo
 
 A sleek terminal chat UI in the style of Claude Code, supporting local models (via Ollama) and OpenAI-compatible API servers.
